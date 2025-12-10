@@ -1,0 +1,55 @@
+body,h1,p{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+}
+
+header,footer{
+    background-color: #333;    /*A tag <footer> é usada para o rodapé da página*/    
+    color: white;              /*A tag <header> é usada aqui para definir a seção de cabeçalho*/
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.container {
+
+    /* Ativa o Flexbox no elemento container, permitindo um
+    layout flexível e responsivo dos elementos filhos. */
+    display: flex; 
+
+    /* Define a direção dos itens flex como linha (horizontal),
+    ordenando os elementos filhos lado a lado. */
+    flex-direction: row;
+    
+    /* Define a altura do container para 80% da altura da
+    viewport, utilizando uma unidade de medida relativa que
+    adapta o tamanho do elemento ao tamanho da tela. */
+    height: 80vh; 
+}
+
+aside {
+    background-color: #f4f4f4;
+    
+    /* Atribui ao elemento aside a capacidade de crescer e
+    ocupar 1 parte do espaço disponível no container flex,
+    equilibrando o layout. */
+    flex: 1; 
+    padding: 20px; 
+    
+}
+
+main {
+
+    /* Define a cor de fundo do elemento main para branco. */
+    background-color: #fff;
+    
+    /* Atribui ao elemento main a capacidade de tomar 3 partes
+    do espaço disponível no container flex, dando-lhe maior
+    espaço em comparação com o aside. */
+    flex: 3; 
+
+    /* Aplica um preenchimento de 20px em todas as direções
+    dentro do main, garantindo espaço adequado para o conteúdo principal. */
+    padding: 20px; 
+
+}
