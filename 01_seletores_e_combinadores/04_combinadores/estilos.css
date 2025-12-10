@@ -1,0 +1,28 @@
+.container > p {  /* com ">" apenas o filho direto vai ser alterado */
+    color: red;
+}
+
+.subcontainer  p {
+    color: blue;
+    font-weight: bold;
+}
+
+.botao + .botao { /* aplica  a os estilos em dos os irmãos no botao que esta ao lado apenas */
+    background-color: green;
+    color: white;
+}
+
+li{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+li:first-child ~ li { /* Seleciona todos irmãos do li independente da distância  */
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow:-1px -1px 0 #000,
+                 1px -1px 0 #000,
+                -1px 1px 0 #000,
+                 1px 1px 0 #000;
+}

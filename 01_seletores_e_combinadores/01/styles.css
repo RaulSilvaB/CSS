@@ -1,0 +1,33 @@
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    
+}
+
+#titulo{
+    text-align: center;
+    color: navy;
+    font-size: 42px;
+}
+
+.destaque{
+
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.link{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link:hover{
+
+    text-decoration: underline;
+    color: palevioletred;
+    
+
+}
