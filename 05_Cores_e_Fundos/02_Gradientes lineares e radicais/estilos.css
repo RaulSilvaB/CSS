@@ -1,0 +1,14 @@
+body{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.linear-gradient{
+    background-image: linear-gradient(to right,#ff7e5f);
+}
+
+.radial-gradient{
+    background-image:radial-gradient(circle,#84fab0,#8fd3f4) ;
+}
