@@ -7,7 +7,7 @@
     font-weight: bold;
 }
 
-.botao + .botao { /* aplica  a os estilos em dos os irmãos no botao que esta ao lado apenas */
+.botao + .botao { /* aplica  a os estilos em  todos os irmãos do botao que esta ao lado apenas */
     background-color: green;
     color: white;
 }
